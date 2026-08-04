@@ -456,3 +456,67 @@ textarea:focus {
     margin-top: 2rem;
   }
 }
+/* ==========================================================================
+   METRIC-DRIVEN PROJECT CARDS
+   ========================================================================== */
+.project-metric-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 1.2rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.project-metric-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(15, 35, 71, 0.12);
+  border-color: var(--navy);
+}
+
+.card-badge-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem; }
+.tech-badge {
+  background: var(--teal-soft);
+  color: var(--teal);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.project-metric-card h3 { font-size: 1.35rem; margin: 0 0 0.5rem; }
+.project-metric-card p { margin: 0 0 1.25rem; }
+
+.metric-dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  background: var(--teal-soft);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+}
+.metric-pill { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.metric-label { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.02em; margin-bottom: 0.25rem; }
+.metric-value { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 1rem; font-weight: 700; color: var(--navy); }
+.metric-value.high { color: #16a34a; }
+.metric-value.perfect { color: var(--teal); }
+
+.card-link-row { display: flex; gap: 1rem; align-self: flex-start; flex-wrap: wrap; }
+.project-action-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--navy);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.project-action-link:hover { color: var(--teal); text-decoration: underline; }
+
+@media (max-width: 480px) {
+  .metric-dashboard { grid-template-columns: 1fr; }
+  .card-link-row { flex-direction: column; gap: 0.5rem; }
+}
