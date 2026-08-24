@@ -561,3 +561,40 @@ textarea:focus {
 .digital-grid { align-items: center; }.relationship-diagram { display: flex; flex-direction: column; gap: .45rem; align-items: stretch; max-width: 300px; }.relationship-diagram span { background: white; border: 1px solid var(--border); box-shadow: 0 8px 18px rgba(15,35,71,.05); padding: .65rem .75rem; border-radius: .55rem; color: var(--navy); font-size: .8rem; font-weight: 700; text-align: center; }.relationship-diagram b { color: var(--teal); text-align: center; }.proposal-note { border-left: 3px solid var(--coral); padding-left: 1rem; color: var(--text) !important; font-weight: 600; }.skills { margin-top: 3rem; }.skills span { background: var(--teal-soft); }.ops-closing { padding: 5.5rem 0; background: linear-gradient(110deg, var(--coral-soft), white); }.ops-closing h2 { font-size: clamp(2.2rem, 4vw, 3.8rem); max-width: 700px; }.ops-closing p:not(.eyebrow) { max-width: 700px; color: var(--muted); font-size: 1.1rem; margin-bottom: 1.7rem; }.deck-button { margin-top: .4rem; }.deck-link { font-weight: 700; color: var(--navy); text-decoration: underline; text-underline-offset: .2em; }
 @media (max-width: 900px) { .ops-hero-grid, .split-heading, .digital-grid { grid-template-columns: 1fr; gap: 2rem; }.contribution-grid { grid-template-columns: repeat(3,1fr); }.analysis-grid { grid-template-columns: repeat(2,1fr); } }
 @media (max-width: 600px) { .ops-hero { padding: 4rem 0; }.ops-hero h1 { font-size: clamp(2.8rem, 14vw, 4.1rem); }.question-grid, .contribution-grid, .analysis-grid { grid-template-columns: 1fr; }.question-grid li, .contribution-grid article { min-height: auto; }.question-grid span, .contribution-grid article > span { margin-bottom: .8rem; }.ops-hero-panel { padding: 1.6rem; }.workflow div { flex-basis: 124px; } }
+
+/* Fleet operations case-study imagery */
+.ops-hero-media-stack {
+  display: grid;
+  gap: 1.5rem;
+  min-width: 0;
+}
+
+.ops-hero-image {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 1.5rem;
+  background: white;
+  box-shadow: var(--shadow);
+}
+
+.ops-hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.project-card-image {
+  width: calc(100% + 3rem);
+  max-width: none;
+  height: auto;
+  margin: -1.5rem -1.5rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+  border-radius: 1.15rem 1.15rem 0 0;
+}
+
+@media (max-width: 900px) {
+  .ops-hero-media-stack {
+    max-width: 680px;
+  }
+}
