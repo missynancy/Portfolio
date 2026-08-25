@@ -2,31 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://missynancy.github.io/Portfolio/</loc>
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://missynancy.github.io/Portfolio/article-email-marketing-tools.html</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://missynancy.github.io/Portfolio/article-saas-product-page-conversion.html</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://missynancy.github.io/Portfolio/case-study-fleet-operations.html</loc>
-    <lastmod>2026-08-24</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://missynancy.github.io/Portfolio/case-study-smartlukufitness.html</loc>
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://missynancy.github.io/Portfolio/case-study-muchcomtech.html</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://missynancy.github.io/Portfolio/article-technical-seo-audit-vs-content.html</loc>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
