@@ -306,6 +306,27 @@ textarea:focus {
   background: #fafcfd;
 }
 
+blockquote {
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  background: var(--teal-soft);
+  border-left: 4px solid var(--teal);
+  border-radius: 0.5rem;
+  color: var(--text);
+  font-style: italic;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+blockquote footer {
+  margin-top: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--navy);
+}
+
 /* Service cards get a subtle hover lift; portfolio/about cards stay static */
 .info-card {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
